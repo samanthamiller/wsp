@@ -52,6 +52,21 @@ table {
 /* End Reset */
 
 
+article {
+	width:550px;
+	float:left;
+}
+
+aside {
+	width:340px;
+	float:left;
+}
+
+footer {
+	clear:both;
+}
+	
+
 
 
 
