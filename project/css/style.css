@@ -51,6 +51,11 @@ table {
 
 /* End Reset */
 
+h1 {
+	background-image:url(../img/logo.png);
+	width:268px;
+	height:109px;
+}
 
 article {
 	width:550px;
