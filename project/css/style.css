@@ -73,6 +73,9 @@ Green: #86a389
 html {
 	width:100%;
 	font-family:Corbel, "Trebuchet MS", "FF Plus Sans", Elsa, Corpid, "PT Sans", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:none;
 }
 
 body {
@@ -110,6 +113,8 @@ nav a {
 a {
 	color:#86a389;
 	text-decoration:none;
+	font-style:italic;
+	font-weight:bold;
 }
 
 h1 {
