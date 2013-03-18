@@ -117,14 +117,37 @@ aside {
 footer {
 	clear:both;
 }
+
+footer table {
+	width:940px;
+}
+
+footer td {
+	width:134px;
+	text-align:center;
+}
 	
 
 
 /* ---------------------------------- Calendar Page CSS ---------------------------------- */
-#calendar td {
-	width:134px;
+#calendar {
+	width:940px;
 }
 
+#calendar td {
+	width:134px;
+	height:150px;
+}
+
+/* ---------------------------------- Local Services Page CSS ---------------------------------- */
+.local {
+	width:970px;
+}
+
+.local td {
+	width:134px;
+	height:150px;
+}
 
 
 
