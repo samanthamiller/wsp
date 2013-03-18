@@ -52,6 +52,23 @@ table {
 /* End Reset */
 
 
+/* 
+ ---------------------------------- Site Color Pallet ---------------------------------- 
+Dark Brown: #54422c
+	Location- h2, blockquote, submit button text
+Medium Brown: #73624e
+	Location- h3, p, li, td, nav
+Gray Brown: #c5c8bd
+	Location- nav a
+Cream: #f4ecd7
+	Location- maincontent bg
+Green: #86a389
+	Location- a, submit button, nav
+----------------------------------------------------------------------------------------
+ */
+	
+
+
 /* ---------------------------------- Global CSS ---------------------------------- */
 html {
 	width:100%;
@@ -157,7 +174,13 @@ footer td {
 
 
 /* ---------------------------------- Contact Page CSS ---------------------------------- */
-#contact
+#contact {
+	width:340px;
+}
+
+.head {
+	padding-top:15px;
+}
 
 
 
