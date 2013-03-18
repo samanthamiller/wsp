@@ -83,6 +83,7 @@ body {
 nav {
 	height:50px;
 	width:960px;
+	font-size:25px;
 }
 
 nav ul {
@@ -91,12 +92,12 @@ nav ul {
 	margin-left: auto;
   	margin-right: auto;
 	float:right;
-	width:940px;
+	width:960px;
 	margin-top:25px;
 }
 
 nav li {
-	width:134px;
+	width:160px;
 	float:left;
 }	
 
