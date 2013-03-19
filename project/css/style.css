@@ -72,7 +72,7 @@ Green: #86a389
 /* ---------------------------------- Global CSS ---------------------------------- */
 html {
 	width:100%;
-	font-family:Corbel, "Trebuchet MS", "FF Plus Sans", Elsa, Corpid, "PT Sans", sans-serif;
+	font-family:Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
 	font-style:normal;
 	font-weight:normal;
 	font-variant:none;
