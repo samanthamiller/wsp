@@ -30,6 +30,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -45,7 +46,7 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+	/* border-collapse: collapse; */
 	border-spacing: 0;
 }
 
@@ -80,12 +81,13 @@ html {
 
 body {
 	width:960px;
-	margin:0 auto;
+	margin:0% auto;
 }
 
 nav {
-	height:50px;
-	width:960px;
+	height:5.20833333%; /* height:50px; */
+	width:100%; /* width:960px; */
+	color:#86a389;
 	
 }
 
@@ -95,20 +97,18 @@ nav ul {
 	margin-left: auto;
   	margin-right: auto;
 	float:right;
-	width:960px;
-	margin-top:25px;
+	width:100%; /* width:100%; */
+	margin-top:2.7%; /* margin-top:25px; */
 }
 
 nav li {
-	width:160px;
+	width:16.65%; /* width:160px; */
 	float:left;
 }	
 
 nav a {
 	display:block;
 	text-decoration:none;
-	color:#54422c;
-	font-size:25px;
 	text-align:center;
 	font-style:normal;
 	font-weight:normal;
@@ -116,24 +116,28 @@ nav a {
 }
 
 h1 {
-	width:720px;
-	height:109px;
 	text-indent:100%;
 	white-space:nowrap;
 	overflow:hidden;
 }
 
-
 h1 a {
 	background-image:url(../img/logo.png);
 	display:block;
-	width:264px;
+	width:27.5%; /* width:264px; */
 	height:109px;
 }
 
+h2 {
+	margin-bottom:1.90%; /* margin-bottom:10px; */
+}
+
+p {
+	margin-bottom:2.75%; /* margin-bottom:15px; */
+}
 
 article {
-	width:550px;
+	width:57.25%; /* width:550px; */
 	float:left;
 	margin-top:12px;
 }
@@ -147,6 +151,7 @@ aside {
 
 footer {
 	clear:both;
+	margin-top:10px;
 }
 
 footer table {
@@ -159,9 +164,13 @@ footer td {
 }
 
 
-/* Global Fonts */
-p, table, aside, footer {
-	font-size:18px;
+/* ---------------------------------- Global Fonts ----------------------------------*/
+nav a {
+	font-size:25px; /* font-size:25px; */
+}
+
+p, table, aside, footer, li {
+	font-size:16px;
 	color:#73624e;
 }
 
@@ -173,7 +182,7 @@ a {
 	font-weight:bold;
 }
 
-h2 {
+h2, caption {
 	font-size:20px;
 	color:#73624e;
 	font-weight:bold;
@@ -190,12 +199,21 @@ blockquote {
 /* ---------------------------------- Calendar Page CSS ---------------------------------- */
 #calendar {
 	width:940px;
+	height:600px;
+	
 }
 
 #calendar td {
 	width:134px;
 	height:150px;
+	border: 1px solid #54422c;
 }
+
+
+#calendar tr {
+	margin-top:20px;
+}
+
 /* ---------------------------------- End Calendar Page CSS ---------------------------------- */
 
 
@@ -220,11 +238,6 @@ blockquote {
 .head {
 	padding-top:15px;
 }
-
-
-
-
-
 
 
 

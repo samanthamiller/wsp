@@ -52,7 +52,10 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-family:Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+		font-style:normal;
+		font-weight:normal;
+		font-variant:none;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
