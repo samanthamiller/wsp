@@ -87,6 +87,9 @@ body {
 	font-size:100%;
 }
 
+img {
+	max-width:100%;
+}
 
 nav {
 	background-color:#c5c8bd;
@@ -99,8 +102,6 @@ nav ul {
 	background-color:#c5c8bd;
 	list-style-type:none;
 	overflow:hidden;
-	margin-left:0% auto;
-  	margin-right:0% auto;
 	float:right;
 	width:100%; /* width:100%; */
 	padding-top:2.7%; /* margin-top:25px; */
@@ -122,6 +123,7 @@ nav a {
 }
 
 h1 {
+	background-image:url(../img/florish.png);
 	background-color:#f5ecd7;
 	text-indent:100%;
 	white-space:nowrap;
@@ -133,6 +135,7 @@ h1 a {
 	display:block;
 	width:27.5%; /* width:264px; */
 	height:109px;
+	margin-left:3.2%; /* margin-left:30px; */
 }
 
 h2 {
@@ -147,12 +150,13 @@ article {
 	width:57.25%; /* width:550px; */
 	float:left;
 	margin-top:1.25%; /* margin-top:12px; */
+	margin-left:2.2%; /* margin-left:21px; */
+	margin-bottom:5%; /* margin-bottom:48px; */
 }
 
 aside {
-	width:340px;
 	float:left;
-	margin-left:50px;
+	margin-left:28px; /* margin-left:28px; */
 	margin-top:1.25%; /* margin-top:12px; */
 }
 
@@ -163,7 +167,7 @@ footer {
 }
 
 footer table {
-	width:97.90%; /* width:940px; */
+	width:97.9%; /* width:940px; */
 	text-align:center;
 }
 
@@ -200,6 +204,21 @@ blockquote {
 	
 /* ---------------------------------- End Global CSS ---------------------------------- */	
 
+/* ---------------------------------- Index Page CSS ---------------------------------- */
+#obituaries {
+	margin-left:2.2%; /* margin-left:21px; */
+	margin-left:13.6%; /* margin-left:130px; */
+	width:24.5%; /* width:235px; */
+	
+}
+
+blockquote {
+	margin-bottom:1.9%; /* margin-bottom:10px; */
+}
+
+/* ---------------------------------- End Index Page CSS ---------------------------------- */
+
+
 
 /* ---------------------------------- Calendar Page CSS ---------------------------------- */
 #calendar {
@@ -230,6 +249,7 @@ blockquote {
 .local td {
 	width:313px;
 	height:150px;
+	border: 1px solid #54422c;
 }
 /* ---------------------------------- End Local Services Page CSS ---------------------------------- */
 
