@@ -129,7 +129,7 @@ nav a {
 }
 
 h1 {
-	background-image:url(../img/florish.png);
+	background-image:url(../img/florish.png) no-repeat;
 	background-color:#f5ecd7;
 	text-indent:100%;
 	white-space:nowrap;
