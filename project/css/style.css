@@ -425,6 +425,16 @@ input {
 /* ---------------------- Tablet ----------------------*/
 @media screen and (min-width: 481px) and (max-width: 760px){
 
+	html {
+		width:100%;
+	}
+
+	body {
+		max-width:80.5%; /* max-width:600px; */
+		margin:0% auto;
+		font-size:100%;
+	}
+
 	nav {
 		width: 100%;
 		float:none;
@@ -473,6 +483,16 @@ input {
 
 /* ---------------------- Mobile ----------------------*/
 @media screen and (min-width: 0px) and (max-width: 480px){
+	
+	html {
+		width:100%;
+	}
+
+	body {
+		max-width:86.25%; /* max-width:400px; */
+		margin:0% auto;
+		font-size:100%;
+	}	
 	
 	nav {
 		width: 100%;
