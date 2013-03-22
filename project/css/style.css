@@ -54,7 +54,7 @@ table {
 
 
 /* 
- ---------------------------------- Site Color Pallet ---------------------------------- 
+ ---------------------------------- Color Pallet ---------------------------------- 
 Dark Brown: #54422c
 	Location- h2, blockquote, submit button text
 Medium Brown: #73624e
@@ -82,9 +82,14 @@ html {
 
 body {
 	background-color:#f5ecd7;
-	max-width:960px;
+	max-width:70.1%; /* max-width:960px; */
 	margin:0% auto;
 	font-size:100%;
+}
+
+header {
+	width:960px;
+	height:109;
 }
 
 img {
@@ -155,11 +160,6 @@ article {
 	margin-bottom:5%; /* margin-bottom:48px; */
 }
 
-aside {
-	float:left;
-	margin-left:28px; /* margin-left:28px; */
-	margin-top:1.25%; /* margin-top:12px; */
-}
 
 caption {
 	text-align:left;
@@ -212,6 +212,7 @@ blockquote {
 
 /* ---------------------------------- Index Page CSS ---------------------------------- */
 #obituaries {
+	margin-top:1.25%; /* margin-top:12px; */
 	margin-right:2.2%; /* margin-left:21px; */
 	margin-left:13.6%; /* margin-left:130px; */
 	width:24.5%; /* width:235px; */
@@ -230,6 +231,7 @@ blockquote {
 
 #about {
 	float:left;
+	margin-top:1.25%; /* margin-top:12px; */
 	margin-right:2.2%; /* margin-left:21px; */
 	margin-left:7.85%; /* margin-left:75px; */
 	width:30.25%; /* width:290px; */
@@ -270,6 +272,7 @@ blockquote {
 /* ---------------------------------- Pre-need Page CSS ---------------------------------- */
 #preplan {
 	float:left;
+	margin-top:1.25%; /* margin-top:12px; */
 	margin-right:2.2%; /* margin-left:21px; */
 	margin-left:7.85%; /* margin-left:75px; */
 	width:30.25%; /* width:290px; */
@@ -299,12 +302,49 @@ li:first-line {
 
 /* ---------------------------------- Contact Page CSS ---------------------------------- */
 #contact {
-	width:340px;
+	float:left;
+	margin-top:1.25%; /* margin-top:12px; */
+	margin-right:2.2%; /* margin-left:21px; */
+	margin-left:16.5%; /* margin-left:158px; */
+	width:21.5%; /* width:206px; */
 }
 
-.head {
-	padding-top:15px;
+.contact {
+	font-weight:bold;
+	
 }
 
+legend {
+	font-weight:bold;
+	font-size:1em; /* font-size:16px; */
+	color:#73624e;
+}
+
+textarea {
+	border: 1px solid #ccc;
+	padding: 1.1% .9%; /* padding: 6px 4px; */
+	font: .938em /* 15px */ Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	color:#86a389;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 2.8%; /* margin-bottom: 15px; */
+	background: #fff; 
+}
+
+fieldset {
+	font: .938em /* 15px */ Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+}
+
+input {
+	font: .938em /* 15px */ Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	margin-bottom: 2.8%; /* margin-bottom: 15px; */
+	width:50%;
+	color:#86a389;
+}
+
+#submit {
+	width:100%;
+}
+/* ---------------------------------- End Contact Page CSS ---------------------------------- */
 
 
