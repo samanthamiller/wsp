@@ -267,6 +267,22 @@ blockquote {
 /* ---------------------------------- End Calendar Page CSS ---------------------------------- */
 
 
+/* ---------------------------------- Pre-need Page CSS ---------------------------------- */
+#preplan {
+	float:left;
+	margin-right:2.2%; /* margin-left:21px; */
+	margin-left:7.85%; /* margin-left:75px; */
+	width:30.25%; /* width:290px; */
+}
+
+li:first-line {
+	font-weight:bold;
+	line-height:1.5em;
+}
+	
+/* ---------------------------------- End Pre-need Page CSS ---------------------------------- */
+
+
 /* ---------------------------------- Local Services Page CSS ---------------------------------- */
 .local {
 	width:940px;
