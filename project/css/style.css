@@ -163,7 +163,7 @@ aside {
 
 caption {
 	text-align:left;
-	margin-bottom:10px;
+	margin-bottom:1.90%; /* margin-bottom:10px; */
 }
 
 footer {
@@ -232,17 +232,17 @@ blockquote {
 	float:left;
 	margin-right:2.2%; /* margin-left:21px; */
 	margin-left:7.85%; /* margin-left:75px; */
-	width:290px;
+	width:30.25%; /* width:290px; */
 }
 
 .about {
-	margin-bottom:10%;
+	margin-bottom:8%; /* margin-bottom:23px; */
 }
 
 #about th {
 	text-align:left;
 	font-weight:bold;
-	margin-bottom:10%;
+	line-height:1.5em;
 }
 /* ---------------------------------- End About Page CSS ---------------------------------- */
 
