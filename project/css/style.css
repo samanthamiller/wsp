@@ -161,6 +161,11 @@ aside {
 	margin-top:1.25%; /* margin-top:12px; */
 }
 
+caption {
+	text-align:left;
+	margin-bottom:10px;
+}
+
 footer {
 	background-color:#f5ecd7;
 	clear:both;
@@ -226,8 +231,12 @@ blockquote {
 #about {
 	float:left;
 	margin-right:2.2%; /* margin-left:21px; */
-	margin-left:75px; /* margin-left:75px; */
+	margin-left:7.85%; /* margin-left:75px; */
 	width:290px;
+}
+
+.about {
+	margin-bottom:10%;
 }
 
 #about th {
