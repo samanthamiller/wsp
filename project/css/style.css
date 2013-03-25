@@ -13,7 +13,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+table, caption, tbody, tfoot, thead, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
@@ -232,6 +232,10 @@ blockquote {
 	margin-top:1.25%; /* margin-top:12px; */
 	margin-right:2.2%; /* margin-left:21px; */
 	margin-left:13.6%; /* margin-left:130px; */
+}
+
+#obituaries table tbody tr:nth-child(2n) {
+	padding-bottom:10px;
 }
 
 blockquote {
