@@ -128,6 +128,7 @@ nav a {
 	font-variant:none;
 }
 
+
 h1 {
 	background-image:url(../img/florish.png);
 	background-color:#f5ecd7;
@@ -195,6 +196,10 @@ div {
 nav a {
 	font-size:1.563em; /* font-size:25px; */
 	color:#54422c;
+}
+
+.active a {
+	color:#86a389;
 }
 
 p, table, aside, footer, li {
