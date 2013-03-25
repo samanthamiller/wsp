@@ -111,7 +111,8 @@ nav ul {
 	overflow:hidden;
 	float:right;
 	width:100%; /* width:100%; */
-	padding-top:2.7%; /* margin-top:25px; */
+	padding-top:1%; /* padding-top:9px; */
+	padding-bottom:1%; /* padding-top:9px; */
 }
 
 nav li {
@@ -138,7 +139,7 @@ h1 {
 h1 a {
 	display:block;
 	width:27.5%; /* width:264px; */
-	height:109px;
+	height:110px;
 	margin-left:3.2%; /* margin-left:30px; */
 }
 
@@ -207,9 +208,8 @@ p, table, aside, footer, li {
 a {
 	color:#86a389;
 	text-decoration:none;
-	font-size:1em; /* font-size:16px; */
+	font-size:.875em; /* font-size:16px; */
 	font-style:italic;
-	font-weight:bold;
 }
 
 h2, caption {
@@ -228,16 +228,17 @@ blockquote {
 
 /* ---------------------------------- Index Page CSS ---------------------------------- */
 #obituaries {
-	width:24.5%; /* width:235px; */
+	width:25%; /* width:240px; */
 	float:left;
 	overflow:hidden;
 	margin-top:1.25%; /* margin-top:12px; */
 	margin-right:2.2%; /* margin-left:21px; */
-	margin-left:13.6%; /* margin-left:130px; */
+	margin-left:12%; /* margin-left:115px; */
 }
 
-#obituaries table tbody tr:nth-child(2n) {
+#obituaries table tbody tr td a {
 	padding-bottom:10px;
+	display:block;
 }
 
 blockquote {
@@ -250,26 +251,32 @@ blockquote {
 /* ---------------------------------- About Page CSS ---------------------------------- */
 
 #about {
-	width:30.25%; /* width:290px; */
+	width:32%; /* width:308px; */
 	float:left;
 	overflow:hidden;
 	margin-top:1.25%; /* margin-top:12px; */
 	margin-right:2.2%; /* margin-left:21px; */
-	margin-left:7.85%; /* margin-left:75px; */
-}
-
-.about {
-	margin-bottom:8%; /* margin-bottom:23px; */
+	margin-left:6.25%; /* margin-left:60px; */
 }
 
 #about th {
 	text-align:left;
 	font-weight:bold;
 	line-height:1.5em;
+	padding-top:10px;
 }
+
+.about {
+	margin-bottom:8%; /* margin-bottom:23px; */
+}
+
 /* ---------------------------------- End About Page CSS ---------------------------------- */
 
 /* ---------------------------------- Calendar Page CSS ---------------------------------- */
+
+caption {
+margin-top:1.25%; /* margin-top:12px; */
+}
 
 #calendar table { 
   width:100%;
@@ -316,7 +323,7 @@ blockquote {
 	margin-left:7.85%; /* margin-left:75px; */
 }
 
-li:first-line {
+#preplan li:first-line {
 	font-weight:bold;
 	line-height:1.5em;
 }
@@ -325,13 +332,17 @@ li:first-line {
 
 
 /* ---------------------------------- Local Services Page CSS ---------------------------------- */
-
 #local {
-	width:100%; /* width:940px; */
-	margin:0;
+	width:95.5%; /* width:918px; */
+	margin-right:2.2%; /* margin-right:21px; */
 }
 
-#local caption {
+#local p{
+	width:95.5%; /* width:918px; */
+
+}
+
+.local caption {
 	margin-top:2%;
 }
 
