@@ -74,7 +74,8 @@ Green: #86a389
 html {
 	background-image:url(../img/html_bg.jpg);
 	width:100%;
-	font-family:Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	font-family:'Oxygen', 'Raleway', Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	line-height:2em;
 	font-style:normal;
 	font-weight:normal;
 	font-variant:none;
@@ -132,15 +133,9 @@ nav a {
 h1 {
 	background-image:url(../img/florish.png);
 	background-color:#f5ecd7;
-/* 
-	text-indent:100%;
-	white-space:nowrap;
-	overflow:hidden;
- */
 }
 
 h1 a {
-	/* background:url(../img/logo.png) no-repeat; */
 	display:block;
 	width:27.5%; /* width:264px; */
 	height:109px;
@@ -399,7 +394,7 @@ legend {
 textarea {
 	border: 1px solid #ccc;
 	padding: 1.1% .9%; /* padding: 6px 4px; */
-	font: .938em /* 15px */ Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	font: .938em /* 15px */ 'Oxygen', 'Raleway', Corpid, "PT Sans", "Trebuchet MS", sans-serif;
 	color:#86a389;
 	width: 100%;
 	max-width: 100%;
@@ -408,18 +403,19 @@ textarea {
 }
 
 fieldset {
-	font: .938em /* 15px */ Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	font: .938em /* 15px */ 'Oxygen', 'Raleway', Corpid, "PT Sans", "Trebuchet MS", sans-serif;
 }
 
 input {
-	font: .938em /* 15px */ Corbel, "FF Plus Sans", Elsa, Corpid, "PT Sans", "Trebuchet MS", sans-serif;
+	font: .938em /* 15px */ 'Oxygen', 'Raleway', Corpid, "PT Sans", "Trebuchet MS", sans-serif;
 	margin-bottom: 2.8%; /* margin-bottom: 15px; */
 	width:50%;
 	color:#86a389;
 }
 
 #submit {
-	width:100%;
+	width:50%;
+	height:1.75em;
 }
 /* ---------------------------------- End Contact Page CSS ---------------------------------- */
 
